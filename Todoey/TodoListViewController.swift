@@ -8,17 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TodoListViewController: UITableViewController {
 
+    let itemArray = ["Find David", "Buy Eggs", "Destroy stuff"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    //MARK - Tableview DataSource Methods
+    
 
 
 }
